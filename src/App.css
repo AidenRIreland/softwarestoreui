@@ -7,16 +7,53 @@ body, h1, h2, h3, p, form, input, button {
 }
 
 .App {
+  /*The store app*/
   text-align: center;
   padding: 20px;
   background-color: white;
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 
 nav {
-  margin-bottom: 20px;
-  background-color: #0056b3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #08c6fe;
+  padding: 10px 20px;
+  border-radius: 25px;
 }
-
+nav .nav-left, nav .nav-right {
+  display: flex;
+  align-items: center;
+}
+nav .nav-left a, nav .nav-right a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+nav .search-bar {
+  height: 30px;
+  border: none;
+  padding: 0 10px;
+  margin-right: 10px;
+}
+nav .search-bar:focus {
+  outline: none;
+}
+nav .nav-logo {
+  height: 50px; /* Adjust as needed for the logo position*/
+  margin-right: 10px;
+}
+.cart-logo {
+  width: 30px; /* or any size that fits well */
+  height: auto; /* maintain the aspect ratio */
+  margin-left: 10px; /* space from the preceding text or element */
+}
 nav a {
   text-decoration: none;
   margin: 0 10px;
@@ -60,6 +97,6 @@ html {
     flex-direction: column; /* Stack items vertically */
     text-align: center;
     height: 100vh; /* Take full viewport height */
-    background: linear-gradient(180deg, rgba(0,3,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,3,255,1) 100%);
+    background: black;
 }
 
