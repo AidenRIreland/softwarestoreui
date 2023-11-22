@@ -9,10 +9,12 @@ body, h1, h2, h3, p, form, input, button {
 .App {
   text-align: center;
   padding: 20px;
+  background-color: white;
 }
 
 nav {
   margin-bottom: 20px;
+  background-color: #0056b3;
 }
 
 nav a {
@@ -23,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #007bff;
+  color: #ffffff;
 }
 
 input[type="email"],
@@ -50,5 +52,14 @@ button {
 input[type="submit"]:hover,
 button:hover {
   background-color: #0056b3;
+}
+html {
+  display: flex;
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+    height: 100vh; /* Take full viewport height */
+    background: linear-gradient(180deg, rgba(0,3,255,1) 0%, rgba(255,255,255,1) 50%, rgba(0,3,255,1) 100%);
 }
 
