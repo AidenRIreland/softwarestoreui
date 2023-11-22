@@ -19,6 +19,7 @@ function App() {
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>MySoftwareStore</title>
+        <link rel="shortcut icon" type="image/PNG" href="./mysoftwarestorewebp.png"/>
         </head>
         <nav>
         <div className="nav-left">
